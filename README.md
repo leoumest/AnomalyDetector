@@ -21,7 +21,7 @@ A questo punto vi chiederà di inserire con quale modalità effettuare la ricerc
 > 
 > Insert 4 for Safe Distance Anomaly Measurement (exercise 4)
 > 
-> Insert 5 for Parallel Cluster Anomaly Measurement (exercise 5)
+> Insert 6 for Parallel Cluster Anomaly Measurement (exercise 6)
 
 Qualora si voglia eseguire un esercizio con aggregazione delle misure (tutti gli esercizi tranne il 1), vi verrà chiesto di inserire un parametro numerico intero di aggregazione (Cluster factor):
 
