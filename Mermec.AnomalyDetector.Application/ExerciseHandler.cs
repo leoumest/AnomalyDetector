@@ -36,7 +36,7 @@ namespace Mermec.AnomalyDetector.Application
             return await anomalyReport.SendReport(result);
         }
 
-        public async Task<string> Exercise5(float thresholdValue, int clusterFactor)
+        public async Task<string> Exercise6(float thresholdValue, int clusterFactor)
         {
             Measure[] report = await measureReport.GetReport();
             IEnumerable<Anomaly> result = AnomalyFinderService.ParallelClusterAnomalyMeasurement(report, thresholdValue, clusterFactor);

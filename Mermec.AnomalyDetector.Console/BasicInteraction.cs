@@ -9,7 +9,7 @@ namespace Mermec.AnomalyDetector.Console
         PrimoEsercizio = 1,
         SecondoEsercizio = 2,
         QuartoEsercizio = 4,
-        QuintoEsercizio = 5,
+        SestoEsercizio = 6,
     }
 
     public class BasicInteraction
@@ -66,16 +66,16 @@ namespace Mermec.AnomalyDetector.Console
                         filename = await handler.Exercise2(thresholdValue, clusterFactor);
                     }
                     break;
-                case ExerciseNumber.QuintoEsercizio:
-                    {
-                        int clusterFactor = GetClusterFactor();
-                        filename = await handler.Exercise5(thresholdValue, clusterFactor);
-                    }
-                    break;
                 case ExerciseNumber.QuartoEsercizio:
                     {
                         int clusterFactor = GetClusterFactor();
                         filename = await handler.Exercise4(thresholdValue, clusterFactor);
+                    }
+                    break;
+                case ExerciseNumber.SestoEsercizio:
+                    {
+                        int clusterFactor = GetClusterFactor();
+                        filename = await handler.Exercise6(thresholdValue, clusterFactor);
                     }
                     break;
                 default:
@@ -135,7 +135,7 @@ namespace Mermec.AnomalyDetector.Console
             System.Console.WriteLine("Insert 1 for Threshold Anomaly Measurement (exercise 1)");
             System.Console.WriteLine("Insert 2 for Cluster Anomaly Measurement (exercise 2)");
             System.Console.WriteLine("Insert 4 for Safe Distance Anomaly Measurement (exercise 4)");
-            System.Console.WriteLine("Insert 5 for Parallel Cluster Anomaly Measurement (exercise 5)");
+            System.Console.WriteLine("Insert 6 for Parallel Cluster Anomaly Measurement (exercise 6)");
 
             string? exercise = System.Console.ReadLine();
             if (!int.TryParse(exercise, out int number) || !Enum.IsDefined(typeof(ExerciseNumber), number))
