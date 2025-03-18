@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mermec.AnomalyDetector.Console", "Mermec.AnomalyDetector.Console\Mermec.AnomalyDetector.Console.csproj", "{74F8FDFF-63DA-4AD0-B0AB-1FAC7D588896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mermec.AnomalyDetector.Domain", "Mermec.AnomalyDetector.Domain\Mermec.AnomalyDetector.Domain.csproj", "{B9B6F2FE-B1BB-4412-AFB5-DFE8E6EABE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mermec.AnomalyDetector.Infrastructure.CSV", "Mermec.AnomalyDetector.Infrastructure.CSV\Mermec.AnomalyDetector.Infrastructure.CSV.csproj", "{9E25232D-F8AF-4A32-BF3A-FA515F37C52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mermec.AnomalyDetector.Test", "Mermec.AnomalyDetector.Test\Mermec.AnomalyDetector.Test.csproj", "{B5E59387-5F99-4F28-B84F-02788B6F5B0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mermec.AnomalyDetector.Application", "Mermec.AnomalyDetector.Application\Mermec.AnomalyDetector.Application.csproj", "{77454F57-1C2A-4B44-A927-6E7B16C37D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74F8FDFF-63DA-4AD0-B0AB-1FAC7D588896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F8FDFF-63DA-4AD0-B0AB-1FAC7D588896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F8FDFF-63DA-4AD0-B0AB-1FAC7D588896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F8FDFF-63DA-4AD0-B0AB-1FAC7D588896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B6F2FE-B1BB-4412-AFB5-DFE8E6EABE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B6F2FE-B1BB-4412-AFB5-DFE8E6EABE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B6F2FE-B1BB-4412-AFB5-DFE8E6EABE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B6F2FE-B1BB-4412-AFB5-DFE8E6EABE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E25232D-F8AF-4A32-BF3A-FA515F37C52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E25232D-F8AF-4A32-BF3A-FA515F37C52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E25232D-F8AF-4A32-BF3A-FA515F37C52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E25232D-F8AF-4A32-BF3A-FA515F37C52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E59387-5F99-4F28-B84F-02788B6F5B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E59387-5F99-4F28-B84F-02788B6F5B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E59387-5F99-4F28-B84F-02788B6F5B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E59387-5F99-4F28-B84F-02788B6F5B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77454F57-1C2A-4B44-A927-6E7B16C37D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77454F57-1C2A-4B44-A927-6E7B16C37D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77454F57-1C2A-4B44-A927-6E7B16C37D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77454F57-1C2A-4B44-A927-6E7B16C37D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
